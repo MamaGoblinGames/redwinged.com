@@ -33,7 +33,7 @@ img { max-width: 100%; height: auto; }
 .site-head { padding-block: 28px; }
 .site-head .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .site-head .home { display: block; line-height: 0; }
-.site-head .home img { height: 46px; width: auto; max-width: none; }
+.site-head .home img { height: 52px; width: auto; max-width: none; }   /* below 480px the <picture> swaps to the logo without STUDIO */
 .site-head nav { display: flex; gap: 28px; font-size: 15px; }
 .site-head nav a { text-decoration: none; color: var(--soft); }
 .site-head nav a:hover { color: var(--ink); }
